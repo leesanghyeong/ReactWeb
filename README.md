@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# BookClub Blog
+
+본 프로젝트는 React 공부 목적으로 만들어진 BookClub Blog 입니다.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
