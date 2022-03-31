@@ -1,11 +1,17 @@
 import { Card, CardImg, CardImgOverlay, CardText, CardTitle } from "reactstrap";
+import InputName from "../Function/InputName";
 import Like from "../Function/Like";
 import LikeComponent from "../Function/LikeComponent";
+import LikeRevision from "../Function/LikeRevision";
 
 const Home = () => {
   return (
     <>
       {" "}
+      <span>
+        <Like></Like>
+        <InputName></InputName>
+      </span>
       <div>
         <Card inverse>
           <CardImg
@@ -18,7 +24,6 @@ const Home = () => {
             <CardText>책읽는 멋진 사람들 모여라..</CardText>
             <CardText>
               <small className="text-muted">Last updated 3 mins ago</small>
-              <Like></Like>
             </CardText>
           </CardImgOverlay>
         </Card>
