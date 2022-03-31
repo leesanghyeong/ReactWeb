@@ -3,6 +3,7 @@ import InputName from "../Function/InputName";
 import Like from "../Function/Like";
 import LikeComponent from "../Function/LikeComponent";
 import LikeRevision from "../Function/LikeRevision";
+import WiseSayingButton from "../Function/WiseSayingButton";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <span>
         <Like></Like>
         <InputName></InputName>
+        <WiseSayingButton></WiseSayingButton>
       </span>
       <div>
         <Card inverse>
