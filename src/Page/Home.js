@@ -3,6 +3,7 @@ import InputName from "../Function/InputName";
 import UseEffectLike from "../Function/UseEffectLike";
 import WiseSayingButton from "../Function/WiseSayingButton";
 import React, { useState, useEffect, useRef } from "react";
+import Bottombar from "../bootstrab/Bottombar";
 
 //use Click 예제 사용 Hook = useEffect, useRef
 // 주요 특징 useEffect는 componentMount 되었을때와 unmount 되었을때 기능을 제거하는 것을 생각해야한다.
@@ -54,6 +55,9 @@ const Home = () => {
             </CardText>
           </CardImgOverlay>
         </Card>
+      </div>
+      <div>
+        <Bottombar></Bottombar>
       </div>
     </>
   );
