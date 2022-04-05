@@ -1,16 +1,16 @@
 import { Card, CardImg, CardImgOverlay, CardText, CardTitle } from "reactstrap";
 import InputName from "../Function/InputName";
-import Like from "../Function/Like";
-import LikeComponent from "../Function/LikeComponent";
-import LikeRevision from "../Function/LikeRevision";
+import UseEffectLike from "../Function/UseEffectLike";
 import WiseSayingButton from "../Function/WiseSayingButton";
+import React, { useState, useEffect } from "react";
+import ReactDOM from "react-dom";
 
 const Home = () => {
   return (
     <>
       {" "}
       <span>
-        <Like></Like>
+        <UseEffectLike></UseEffectLike>
         <InputName></InputName>
         <WiseSayingButton></WiseSayingButton>
       </span>
