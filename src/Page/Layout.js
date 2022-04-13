@@ -15,7 +15,16 @@ const Layout = () => {
             <Link to="/">Home</Link>
           </Button>
           <Button color="warning" outline>
-            <Link to="/board">Board</Link>
+            <Link to="/Crud">Crud</Link>
+          </Button>
+          <Button color="primary" outline>
+            <Link to="/Login">Login</Link>
+          </Button>
+          <Button color="danger" outline>
+            <Link to="/Board">Board</Link>
+          </Button>
+          <Button color="dark" outline>
+            <Link to="/Identity">identity</Link>
           </Button>
         </Navbar>
       </div>

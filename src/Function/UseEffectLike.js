@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Button } from "reactstrap";
 import { useConfirm } from "./UseConfirm";
+import "./InputEmployee";
 
 const UseEffectLike = () => {
   const likecontent = () => console.log("좋아요 1증가");
@@ -13,7 +14,7 @@ const UseEffectLike = () => {
   };
   useEffect(likecontent, [likebutton]);
   useEffect(hatecontent, [hate]);
-  useEffect(useConfirm("싫어할거야?", acceptHate, rejectHate), [hate]);
+  useEffect(useConfirm("싫어요를 누릅니다.", acceptHate, rejectHate), [hate]);
   function acceptHate() {
     console.log("누군가 싫어합니다.");
   }
